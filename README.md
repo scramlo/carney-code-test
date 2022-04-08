@@ -6,9 +6,9 @@ Build this project grid component (from the Landify UI Kit) and try to match the
 
 ## Specs
 
-[X] Deliver a plain HTML file if you want, or feel free to use CodePen or a similar site.
+- [x] Deliver a plain HTML file if you want, or feel free to use CodePen or a similar site.
 
-[] Use vanilla CSS, SCSS, LESS, or whatever you want.
+- [ ] Use vanilla CSS, SCSS, LESS, or whatever you want.
 
 [] Use Inter font, available on Google Fonts.
 
