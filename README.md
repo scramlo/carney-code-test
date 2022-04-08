@@ -6,7 +6,7 @@ Build this project grid component (from the Landify UI Kit) and try to match the
 
 ## Specs
 
-[] Deliver a plain HTML file if you want, or feel free to use CodePen or a similar site.
+[X] Deliver a plain HTML file if you want, or feel free to use CodePen or a similar site.
 
 [] Use vanilla CSS, SCSS, LESS, or whatever you want.
 
