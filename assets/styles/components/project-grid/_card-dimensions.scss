@@ -1,0 +1,23 @@
+// There are fives types of cards
+
+@mixin card-dimensions($type) {
+    @if $type==small {
+        height: 300px;
+        width: 350px;
+    }
+
+    @if $type==large {
+        height: 630px;
+        width: 730px;
+    }
+
+    @if $type==vertical {
+        height: 650px;
+        width: 350px;
+    }
+
+    @if $type==horizontal {
+        height: 300px;
+        width: 730px;
+    }
+}

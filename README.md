@@ -10,9 +10,9 @@ Build this project grid component (from the Landify UI Kit) and try to match the
 
 - [ ] Use vanilla CSS, SCSS, LESS, or whatever you want.
 
-- [ ] Use Inter font, available on Google Fonts.
+- [x] Use Inter font, available on Google Fonts.
 
-- [ ] Each project block should be a link.
+- [x] Each project block should be a link.
 
 - [ ] When you hover/focus a project, the other ones should fade out (50% opacity) and the image should become grayscale.
 

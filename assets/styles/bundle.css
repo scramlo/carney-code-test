@@ -40,8 +40,6 @@ h4 {
 .project-card {
   position: relative;
   display: block;
-  width: 100%;
-  height: 100%;
   color: inherit;
   text-decoration: none;
 }
@@ -59,15 +57,29 @@ h4 {
   font-weight: 700;
   margin: 0;
 }
-.project-card__description {
-  margin: 0;
-}
 .project-card__image {
   width: 100%;
-  height: auto;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  object-fit: cover;
+}
+.project-card--small {
+  height: 300px;
+  width: 350px;
+}
+.project-card--large {
+  height: 630px;
+  width: 730px;
+}
+.project-card--vertical {
+  height: 650px;
+  width: 350px;
+}
+.project-card--horizontal {
+  height: 300px;
+  width: 730px;
 }
 
 .project-grid__title {
@@ -76,6 +88,8 @@ h4 {
 .project-grid__list {
   list-style-type: none;
   padding: 0;
+  display: grid;
+  grid-auto-flow: row;
 }
 
 /*# sourceMappingURL=bundle.css.map */
