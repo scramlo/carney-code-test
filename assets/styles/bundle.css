@@ -40,6 +40,11 @@ h4 {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 991px) {
+  .container {
+    margin: 80px;
+  }
+}
 
 /* Components used for layout */
 .project-card {
