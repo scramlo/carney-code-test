@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carney CSS Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/bundle.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="project-grid" aria-label="Recent works">
+            <h2 class="project-grid__title">Recent works</h2>
+            <ul class="project-grid__list">
+                <li itemscope itemtype="http://schema.org/Product">
+                    <a class="project-card" href="https://www.duckduckgo.com/" target="_blank"
+                        aria-label="Go to Project Title">
+                        <header class="project-card__header">
+                            <h4 itemprop="name">Project Title</h4>
+                            <p class="subtitle subtitle--2" itemprop="description">Android,
+                                IoT</p>
+                        </header>
+                        <img class="project-card__image" src="assets/img/project-images/1.png" alt="Project Card 1"
+                            itemprop="image">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>

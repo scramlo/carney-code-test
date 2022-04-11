@@ -1,0 +1,81 @@
+/* Apply styles to page-scoped elements */
+body {
+  font-family: "Inter", sans-serif;
+  color: #18191F;
+  margin: 0;
+}
+
+h2,
+h4,
+.subtitle {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-feature-settings: "salt";
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.subtitle--2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.container {
+  margin: 80px 165px;
+}
+
+/* Components used for layout */
+.project-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.project-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin: 32px 16px 0 32px;
+}
+.project-card__title {
+  font-weight: 700;
+  margin: 0;
+}
+.project-card__description {
+  margin: 0;
+}
+.project-card__image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.project-grid__title {
+  margin-bottom: 48px;
+}
+.project-grid__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*# sourceMappingURL=bundle.css.map */

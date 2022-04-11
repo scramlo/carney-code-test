@@ -1,0 +1,41 @@
+@use "./typography";
+
+/* Apply styles to page-scoped elements */
+
+body {
+    // Page cascading font family
+    font-family: typography.$font-family--body;
+
+    // Page cascading color
+    color: typography.$font-color--body;
+
+    // Resets
+    margin: 0;
+}
+
+h2,
+h4,
+.subtitle {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-feature-settings: 'salt';
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: typography.$font-weight--extra-bold;
+    line-height: 64px;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: typography.$font-weight--bold;
+    line-height: 40px;
+}
+
+.subtitle--2 {
+    font-size: 18px;
+    font-weight: typography.$font-weight--medium;
+    line-height: 28px;
+}

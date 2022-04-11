@@ -1,0 +1,14 @@
+@use "./project-card";
+
+// Project grid is a component which lays out projects in a masonry-like grid
+
+.project-grid {
+    &__title {
+        margin-bottom: 48px;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+    }
+}

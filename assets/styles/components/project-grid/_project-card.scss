@@ -1,0 +1,36 @@
+.project-card {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        margin: 32px 16px 0 32px;
+    }
+
+    &__title {
+        font-weight: 700;
+        margin: 0;
+    }
+
+    &__description {
+        margin: 0;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
