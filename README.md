@@ -20,6 +20,10 @@ Build this project grid component (from the Landify UI Kit) and try to match the
 
 - [x] No javascript.
 
+## Screenshot
+
+![Carney Test Screenshot](./assets/img/screenshots/carney-test-screenshot.png)
+
 ## Developer Comments
 
 1. I broke up the SCSS in a way which would make sense for an entire application / website, not just one component. This was purposeful to show my ability to think in terms of scale. I recognize it is slightly overkill for one component.
