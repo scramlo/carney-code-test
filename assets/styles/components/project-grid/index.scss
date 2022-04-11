@@ -20,6 +20,12 @@
         &:hover .project-card__header,
         &:hover .project-card__image {
             filter: grayscale(100%);
+            opacity: 50%;
+        }
+
+        @media screen and (max-width: 991px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
         }
     }
 }

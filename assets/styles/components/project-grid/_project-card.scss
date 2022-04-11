@@ -11,12 +11,13 @@
 
     &__header,
     &__image {
-        transition: filter 300ms ease-in-out;
+        transition: filter 300ms ease-in-out, opacity 300ms ease-in-out;
     }
 
     &:hover &__header,
     &:hover &__image {
         filter: none !important;
+        opacity: 1 !important;
     }
 
     &__header {
@@ -58,6 +59,12 @@
 
     &--horizontal {
         @include card-dimensions(horizontal);
+    }
+
+    @media screen and (max-width: 991px) {
+        aspect-ratio: 1;
+        grid-column: span 1;
+        grid-row: span 1;
     }
 
 }
